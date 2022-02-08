@@ -1,0 +1,5 @@
+{
+  "name": "Harmony",
+  "extensions": ["denoland.vscode-deno"],
+  "postCreateCommand": "sh scripts/setup.sh"
+}
