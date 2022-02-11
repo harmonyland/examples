@@ -17,8 +17,8 @@ function Index() {
 }
 
 export default {
-  path: new URLPattern({ pathname: "/" }),
-  handle(_req, _pattern) {
+  path: "/",
+  handle(_req) {
     cached = cached ?? Index();
     return html(cached);
   },

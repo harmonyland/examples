@@ -1,9 +1,6 @@
 export interface Page {
-  path: URLPattern;
-  handle: (
-    req: Request,
-    pattern: URLPatternResult,
-  ) => Response | Promise<Response | null> | null;
+  path: string;
+  handle: (req: Request) => Response | Promise<Response | null> | null;
 }
 
 export * from "../ssr.tsx";

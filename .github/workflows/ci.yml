@@ -50,4 +50,4 @@ jobs:
           deno-version: 'v1.x'
 
       - name: Test
-        run: deno cache -c deno.json main.tsx
+        run: deno run -c deno.json -A main.tsx
