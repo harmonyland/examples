@@ -1,5 +1,5 @@
 export * from "https://x.lcas.dev/preact@10.5.11/ssr.js";
-export { h, Fragment } from "https://x.lcas.dev/preact@10.5.11/mod.js";
+export { Fragment, h } from "https://x.lcas.dev/preact@10.5.11/mod.js";
 export { setup, tw } from "https://cdn.skypack.dev/twind@0.16.16";
 export {
   getStyleTag,
